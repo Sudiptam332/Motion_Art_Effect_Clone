@@ -131,6 +131,7 @@ main {
   border-radius: 20px;
 }
 
+
 /* Feature */
 .plugin{
   text-align: center;
@@ -164,7 +165,12 @@ main {
 
 
 @media only screen and (max-width: 600px) {
+  .pbt{
+    display: none;
+  }
+
   .homeContainer{
+    display: inline;
     flex-direction: column;
     text-align: center;
     margin: auto;
@@ -174,6 +180,11 @@ main {
   .homeLeft{
     flex-basis: 50%;
     margin-top: 40px;
+    
+  }
+
+  .homeRight{
+    margin-bottom: 50px;
   }
 
   .reviewContainer{
@@ -186,6 +197,10 @@ main {
     flex-direction: column;
     text-align: center;
     gap: 30px;
+  }
+
+  .browserContainer img{
+    width: 90%;
   }
 
   .applyContainer{
