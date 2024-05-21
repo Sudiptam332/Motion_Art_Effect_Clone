@@ -9,7 +9,7 @@ const Navber = () => {
                 <img src={Logo} alt="" />
             </div>
             <div className="navRight">
-                <button class="btn btn-light pbt">Purchase Now</button>
+                <button className="btn btn-light pbt">Purchase Now</button>
             </div>
         </div>
     )
