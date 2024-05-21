@@ -1,0 +1,140 @@
+body {
+  background: rgb(0, 7, 18);
+  padding: 1% 4%;
+}
+
+.pbt{
+  padding: 15px 45px;
+}
+
+/* Home */
+.homeContainer{
+  color: white;
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  align-items: center;
+}
+
+.homeLeft{
+  flex-basis: 60%;
+}
+
+.homeRight h1{
+  font-size: 50px;
+}
+
+.textGredient{
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+}
+
+.homeRight p{
+  font-size: 17px;
+}
+
+.userNum{
+  text-align: center;
+  color: aliceblue;
+}
+
+
+/* Review */
+.reviewContainer{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+
+.review{
+  display: flex;
+  align-items: center;
+  line-height: 35px;
+  color: white;
+}
+
+/* Magic */
+.magicContainer{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin: 100px 0;
+  line-height: 30px;
+}
+
+.magicLeft{
+  flex-basis: 60%;
+}
+
+.btnme{
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+/* Apply */
+.applyContainer{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 50px 0;
+}
+
+.apply{
+  flex-basis: 48%;
+  background-image: linear-gradient(rgb(0, 0, 5), rgb(20, 3, 63));
+  padding: 30px;
+  border-radius: 20px;
+  height: 50%;
+}
+
+.apply img{
+  width: 100%;
+}
+
+.aright{
+  margin-top: 80px;
+}
+
+/* Browse */
+.browserContainer{
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(rgb(0, 0, 5), rgb(20, 3, 63));
+  padding: 60px 0;
+  border-radius: 20px;
+}
+
+/* Feature */
+.plugin{
+  text-align: center;
+  color: white;
+  margin: 80px 0;
+}
+
+.pCon{
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+
+.pItem{
+  background-image: linear-gradient(rgb(0, 0, 5), rgb(20, 3, 63));
+  text-align: left;
+  flex-basis: 30%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* Footer */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  color: antiquewhite;
+  padding: 20px;
+  margin: 0;
+  background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+}
